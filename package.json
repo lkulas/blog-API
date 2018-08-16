@@ -1,0 +1,22 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "CRUD API for blogging platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkulas/blog-API.git"
+  },
+  "author": "Laura Kulas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkulas/blog-API/issues"
+  },
+  "homepage": "https://github.com/lkulas/blog-API#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
