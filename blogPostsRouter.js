@@ -22,6 +22,7 @@ BlogPosts.create('Blog Post 2',
 
 router.get('/', (req, res) => {
 	res.json(BlogPosts.get());
+	return res.status(200);
 });
 
 router.post('/', jsonParser, (req, res) => {
